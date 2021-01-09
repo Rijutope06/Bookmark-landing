@@ -1,0 +1,22 @@
+.carousel
+  margin 2em 0
+  text-align left
+  &-content
+    &[open]
+      .carousel
+        &-header
+          border none
+          &::-webkit-details-marker
+            color var(--softRed)
+      .u-p
+        text-align left
+  &-header
+    padding 1.5em 0
+    border-bottom 1px solid var(--light-gray)
+    font-size .9em
+    cursor pointer
+    &:focus
+      outline none
+    &::-webkit-details-marker
+      color var(--softBlu)
+      float right
