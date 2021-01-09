@@ -3,6 +3,8 @@
 @import './features.styl'
 @import './download.styl'
 @import './questions.styl'
+@import './join.styl'
+@import './footer.styl'
 
 :root
   --softBlue: hsl(231, 69%, 60%)
@@ -37,6 +39,10 @@ ul
 .u-h2
   @extends .u-h1
 
+.u-h4
+  @extends .u-h1
+  font-size 1.3em
+  margin-top .5em
 .u-p
   color var(--grayishBlue)
   line-height 1.5
@@ -57,6 +63,10 @@ ul
   box-shadow x y blur spread color
   &:first-of-type
     margin 0
+  &.is-red
+    background var(--softRed)
+    color white
+    width 100%
   &.is-gray
     background #f7f7f7
     color var(--veryDarkBlue)
