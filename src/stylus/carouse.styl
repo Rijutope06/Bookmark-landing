@@ -1,6 +1,7 @@
 .carousel
-  margin 2em 0
   text-align left
+  max-width 580px
+  margin 2em auto
   &-content
     &[open]
       .carousel
@@ -20,3 +21,5 @@
     &::-webkit-details-marker
       color var(--softBlu)
       float right
+  @media screen and (min-width 1024px)
+    border-top 1px solid var(--light-gray)

@@ -1,5 +1,6 @@
 .menu
-  display none
+  //display none
+  visibility hidden
   position absolute
   right 0
   left 0
@@ -42,4 +43,28 @@
         & .header-logo
           background-image url('../images/logo-bookmark-white.svg')
         & .menu
-          display block
+          visibility visible
+
+  @media screen and (min-width: 1024px)
+    visibility visible
+    height auto
+    position initial
+    background initial
+    a
+      color var(--veryDarkBlue)
+    li
+      border none
+      &:last-child
+        a
+          border none
+          border 2px solid white
+          margin-top 0
+          border-radius .5em
+          padding .7em 2em
+          background var(--softRed)
+          color white
+          margin-left 2em
+    ul
+      display flex
+    &-open
+      display none
