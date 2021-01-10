@@ -1,6 +1,5 @@
 # Bookmark-landing
 
-# Bookmark Landing
 Challenge #3 by FrontendMentor.io
 
 watch the live project 👉 https://rijutope06.github.io/Bookmark-landing/
